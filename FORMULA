@@ -1,0 +1,9 @@
+name: boundedns
+os: Suse, openSUSE
+os_family: Suse
+version: 0.0.1
+release: 1
+minimum_version: 3006
+summary: Unbound sometimes needs salt too
+description: unbound
+top_level_dir: salt/boundedns
