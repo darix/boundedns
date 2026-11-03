@@ -84,7 +84,6 @@ def run():
             {'require':    ["unbound_packages"]},
             {'require_in': unbound_service_deps},
             {'watch_in':   unbound_service_deps},
-            {'onchanges_in': unbound_service_deps},
           ]
         }
 
