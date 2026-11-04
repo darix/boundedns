@@ -1,3 +1,6 @@
+unbound:
+  config:
+    conf.d:
       002-forwarders: |-
         forward-zone:
           name: "."
