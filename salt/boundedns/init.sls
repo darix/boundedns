@@ -78,7 +78,7 @@ def run():
           "file.managed": [
             {'name':      f"{unbound_config_dir}/{config_subdir}/{config_file_name}.conf"},
             {'user':      'root'},
-            {'group',     'unbound'},
+            {'group':     'unbound'},
             {'mode':      '0640'},
             {'contents':   config_content},
             {'require':    ["unbound_packages"]},
